@@ -21,7 +21,7 @@ devtools::install_github("JonasGrabbe/tafyR")
 After installation, load the package using:
 
 ```R
-library(TaphonomyR)
+library(tafyR)
 ```
 
 ### 3. Loading Example Data
@@ -47,11 +47,7 @@ NewSite <- load.thaph.data("path/to/yourfile.xlsx")
 You can compare the MNE, MNAU, %MNAU & AcReMNAU-values between your dataset (`NewSite`) and the example dataset (`HomininPartAbundance`). Use the `plot.abundance.function`:
 
 ```R
-plot.abundance.function(
-    NewSite,
-    hpa
-  )
-)
+plot.abundance.function(NewSite,hpa)
 ```
 
 This will generate a plot visualizing the MNE values for the datasets.
@@ -75,10 +71,5 @@ data("hpa")
 NewSite <- load.thaph.data("path/to/yourfile.xlsx")
 
 # Plot the derived values
-plot.abundance.function(
-  data = list(
-    NewSite,
-    hpa
-  )
-)
+plot.abundance.function(NewSite,hpa)
 ```
