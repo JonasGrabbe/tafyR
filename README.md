@@ -39,7 +39,7 @@ This dataset contains example taphonomic data for analysis.
 To analyze your own dataset, you can load an Excel file into R using the `load.thaph.data` function. Replace `"path/to/yourfile.xlsx"` with the actual path to your Excel file:
 
 ```R
-NewSite <- load.thaph.data("path/to/yourfile.xlsx")
+NewSite <- load.tapho.data("path/to/yourfile.xlsx")
 ```
 
 ### 5. Plotting MNE Values
@@ -68,7 +68,7 @@ library(TaphonomyR)
 data("hpa")
 
 # Load your own dataset
-NewSite <- load.thaph.data("path/to/yourfile.xlsx")
+NewSite <- load.tapho.data("path/to/yourfile.xlsx")
 
 # Plot the derived values
 plot.abundance.function(NewSite,hpa)
