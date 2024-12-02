@@ -44,13 +44,13 @@ NewSite <- load.tapho.data("path/to/yourfile.xlsx")
 
 ### 5. Plotting MNE Values
 
-You can compare the MNE, MNAU, %MNAU & AcReMNAU-values between your dataset (`NewSite`) and the example dataset (`HomininPartAbundance`). Use the `plot.abundance.function`:
+You can compare the **MNE**, **MNAU**, **%MNAU** & **AcReMNAU**-values between your dataset (`NewSite`) and the example dataset (`HomininPartAbundance`). Use the `plot.abundance.function`:
 
 ```R
 plot.abundance.function(NewSite,hpa)
 ```
 
-This will generate a plot visualizing the MNE values for the datasets.
+This will generate a plot visualizing the derived values for the datasets.
 
 ### Example Workflow
 
