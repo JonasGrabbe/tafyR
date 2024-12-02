@@ -82,7 +82,3 @@ plot.abundance.function(
   )
 )
 ```
-
----
-
-Feel free to replace `"YourUsername/TaphonomyR"` with your actual GitHub repository path. This guide provides a simple, clear introduction for users to get started with your package.
