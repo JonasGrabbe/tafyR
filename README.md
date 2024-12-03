@@ -2,7 +2,19 @@
 
 ## Overview
 
-**tafyR** is an R package designed for taphonomic data analysis, providing tools to load, process, and visualize taphonomic datasets.
+**tafyR** is an R package designed for taphonomic data analysis, providing tools to load, process, and visualize taphonomic datasets. Additionally, **tafyR** includes an interactive Shiny application that allows users to perform analyses and visualize results without writing any code.
+
+Access the interactive Shiny app here: [tafyr_app on shinyapps.io](https://zojobx-jonas-grabbe.shinyapps.io/tafyr_app/)
+
+![tafyR Shiny App Screenshot](https://github.com/JonasGrabbe/tafyR/edit/main/shiny_app_screenshot.png)
+
+### Features
+
+- **Load Taphonomic Datasets:** Import your taphonomic data from Excel files.
+- **Process and Analyze Data:** Utilize functions to compute key taphonomic metrics.
+- **Visualize Results:** Generate interactive plots to compare datasets using Plotly.
+- **Interactive GUI:** Use the Shiny app for a user-friendly interface without the need for coding.
+
 
 ### 1. Installation
 
@@ -42,7 +54,7 @@ To analyze your own dataset, you can load an Excel file into R using the `load.t
 NewSite <- load.tapho.data("path/to/yourfile.xlsx")
 ```
 
-### 5. Plotting MNE Values
+### 5. Plotting Derived Values
 
 You can compare the **MNE**, **MNAU**, **%MNAU** & **AcReMNAU**-values between your dataset (`NewSite`) and the example dataset (`HomininPartAbundance`). Use the `plot.abundance.function`:
 
@@ -73,3 +85,18 @@ NewSite <- load.tapho.data("path/to/yourfile.xlsx")
 # Plot the derived values
 plot.abundance.function(NewSite,hpa)
 ```
+
+## Interactive Shiny Application
+For an interactive experience, use the tafyR Shiny app hosted on shinyapps.io. The app allows you to upload your data and visualize the results through a user-friendly GUI.
+
+Access the Shiny app here: ![tafyr_app on shinyapps.io](https://zojobx-jonas-grabbe.shinyapps.io/tafyr_app/)
+
+### Using the Shiny App
+
+1. **Upload Your Excel File:**
+   - Click on the "Upload Excel File" button.
+   - Select your `.xlsx` or `.xls` file containing your taphonomic data.
+2. **View Data:**
+   - Once uploaded, the data table will appear in the sidebar for verification.
+3. **Visualize Abundance Function:**
+   - The main panel will display an interactive Plotly plot comparing your dataset with the example `hpa` dataset.
