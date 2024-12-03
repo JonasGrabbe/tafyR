@@ -1,4 +1,34 @@
-
+#' Plot DataFrames with Switchable Buttons
+#'
+#' This function generates an interactive plot using Plotly, where each row of a
+#' set of data frames (organized by metrics) can be visualized, with buttons
+#' to switch between metrics.
+#'
+#' @param results A named list of data frames. Each data frame represents a
+#' metric (e.g., "MNE") with rows corresponding to different groups or categories,
+#' and columns corresponding to elements.
+#'
+#' @details
+#' The function creates an interactive Plotly plot with traces for each row of each
+#' metric. The x-axis represents the elements (common across all data frames),
+#' while the y-axis represents the values. Buttons below the plot allow users
+#' to switch between metrics, hiding traces associated with other metrics.
+#'
+#' @return A Plotly figure object with interactive elements.
+#'
+#' @examples
+#' library(plotly)
+#'
+#' # Example data
+#' df1 <- data.frame(A = c(1, 2, 3), B = c(4, 5, 6), C = c(7, 8, 9))
+#' df2 <- data.frame(A = c(9, 8, 7), B = c(6, 5, 4), C = c(3, 2, 1))
+#' results <- list(MNE = df1, Accuracy = df2)
+#'
+#' # Create the plot
+#' fig <- plot_dataframes(results)
+#' fig
+#'
+#' @export
 
 # Function to plot dataframes with switchable buttons
 plot_dataframes <- function(results) {
