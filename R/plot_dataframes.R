@@ -104,4 +104,3 @@ plot_dataframes <- function(results) {
   # Display the plot
   return(fig)
 }
-plot_dataframes(results)
