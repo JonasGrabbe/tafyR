@@ -6,7 +6,7 @@
 
 Access the interactive Shiny app here: [tafyr_app on shinyapps.io](https://zojobx-jonas-grabbe.shinyapps.io/tafyr_app/)
 
-![tafyR Shiny App Screenshot](https://github.com/JonasGrabbe/tafyR/edit/main/shiny_app_screenshot.png)
+![tafyR Shiny App Screenshot](https://github.com/JonasGrabbe/tafyR/blob/main/shiny_app_screenshot.png)
 
 ### Features
 
