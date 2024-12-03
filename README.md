@@ -1,6 +1,5 @@
 # tafyR: A Toolkit for Taphonomic Analysis in R
 
-## Overview
 
 **tafyR** is an R package designed for taphonomic data analysis, providing tools to load, process, and visualize taphonomic datasets. Additionally, **tafyR** includes an interactive Shiny application that allows users to perform analyses and visualize results without writing any code.
 
