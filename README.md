@@ -59,7 +59,7 @@ Here’s the complete workflow:
 ```R
 # Install the package
 install.packages("devtools")
-devtools::install_github("YourUsername/tafyR")
+devtools::install_github("JonasGrabbe/tafyR")
 
 # Load the library
 library(TaphonomyR)
