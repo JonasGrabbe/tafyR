@@ -89,7 +89,7 @@ plot.abundance.function(NewSite,hpa)
 ## Interactive Shiny Application
 For an interactive experience, use the tafyR Shiny app hosted on shinyapps.io. The app allows you to upload your data and visualize the results through a user-friendly GUI.
 
-Access the Shiny app here: ![tafyr_app on shinyapps.io](https://zojobx-jonas-grabbe.shinyapps.io/tafyr_app/)
+Access the Shiny app here:  [tafyr_app on shinyapps.io](https://zojobx-jonas-grabbe.shinyapps.io/tafyr_app/)
 
 ### Using the Shiny App
 
